@@ -1,0 +1,1 @@
+create index IX_55EEB248 on movieLib_movie (uuid_);

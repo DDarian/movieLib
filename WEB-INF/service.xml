@@ -1,0 +1,13 @@
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+
+<service-builder package-path="dom.movielib.portlet">
+	<namespace>movieLib</namespace>
+	<entity name="movie" uuid="true" local-service="true" remote-service="true">
+
+		<column name="movieId" type="long" primary="true" />
+		<column name="movieName" type="String" />
+		<column name="producerName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="carrierType" type="String" />
+	</entity>
+</service-builder>
